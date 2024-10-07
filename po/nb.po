@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the re.sonny.Commit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: re.sonny.Commit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 11:19+0200\n"
+"PO-Revision-Date: 2024-10-05 20:39+0200\n"
+"Last-Translator: Sunniva Løvstad <turtle@turtle.garden>\n"
+"Language-Team: \n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#. TRANSLATORS: Don't translate
+#: data/re.sonny.Commit.desktop:4 src/welcome.ui:9
+msgid "Commit"
+msgstr "Commit"
+
+#: data/re.sonny.Commit.desktop:5 data/re.sonny.Commit.metainfo.xml:10
+#: src/about.js:9
+msgid "Commit message editor"
+msgstr "Commitmeldingsredigerer"
+
+#. TRANSLATORS: Don't translate
+#: data/re.sonny.Commit.desktop:13
+msgid "git;mercurial;hg;scm;gnomit;komet;comet;"
+msgstr "git;mercurial;hg;scm;gnomit;komet;comet;"
+
+#: data/re.sonny.Commit.gschema.xml:7 src/welcome.ui:36
+msgid "Title maximum length (in characters)"
+msgstr "Maksimal tittellengde (i tegn)"
+
+#: data/re.sonny.Commit.gschema.xml:13 src/welcome.ui:54
+msgid "Body lines maximum length (in characters)"
+msgstr "Maksimal brødtekstlinjelengde (i tegn)"
+
+#: data/re.sonny.Commit.metainfo.xml:13
+msgid ""
+"Commit is an editor that helps you write better Git and Mercurial commit "
+"messages."
+msgstr ""
+"Commit er en redigerer som hjelper deg med å skrive enda bedre Git- og "
+"Mercurial-commitmeldinger."
+
+#: data/re.sonny.Commit.metainfo.xml:17
+msgid ""
+"After installing make sure to launch the application and follow the "
+"instructions."
+msgstr "Vennligst åpen appen etter installasjon og følg instruksene."
+
+#: data/re.sonny.Commit.metainfo.xml:21
+msgid ""
+"Commit will pop up automatically when you make a commit in one of your "
+"projects. To save your commit message, press the Commit button or the "
+"<code>Ctrl+Return</code> shortcut. To abort and dismiss Commit, press the "
+"Abort button or the <code>Escape</code> key."
+msgstr ""
+"Commit dukker opp automatisk når du gjør commit i en av prosjektene dine. "
+"For å lagre commitmeldingen din, trykk på Commit-knappen eller <code>Ctrl + "
+"Retur</code>-snarveien. For å avbryte og avvise Commit, trykk på Avbryt-"
+"knappen eller <code>Escape</code>-tasten."
+
+#: data/re.sonny.Commit.metainfo.xml:28
+msgid "Features:"
+msgstr "Funksjoner:"
+
+#: data/re.sonny.Commit.metainfo.xml:30
+msgid "Highlights overflow of the commit title"
+msgstr "Markerer overskudd på committittelen"
+
+#: data/re.sonny.Commit.metainfo.xml:31 data/re.sonny.Commit.metainfo.xml:119
+msgid "Smart body wrapping"
+msgstr "Smart ombrekking av brødtekst"
+
+#: data/re.sonny.Commit.metainfo.xml:32
+msgid "Inserts a blank line between title and body"
+msgstr "Setter inn en tom linje mellom tittelen og brødteksten"
+
+#. <li>Spell checking</li>
+#: data/re.sonny.Commit.metainfo.xml:34
+msgid "Comments are readonly and excluded from \"Select All\""
+msgstr "Kommentar er skrivebeskyttede og er utelatt fra «Velg alt»"
+
+# Usikker på om hovedlinjen er hvordan dette skal oversettes.
+#: data/re.sonny.Commit.metainfo.xml:35
+msgid "Displays project folder and branch in window header"
+msgstr "Viser projektmappe og -gren i vindushovedlinjen"
+
+#: data/re.sonny.Commit.metainfo.xml:36
+msgid "Dark mode support"
+msgstr "Støtte for mørk drakt"
+
+#: data/re.sonny.Commit.metainfo.xml:37
+msgid "Keyboard navigation and shortcuts"
+msgstr "Tastaturnavigering og -snarveier"
+
+#: data/re.sonny.Commit.metainfo.xml:38
+msgid "Undo/Redo support"
+msgstr "Støtte for Angre/Gjør om"
+
+#: data/re.sonny.Commit.metainfo.xml:39
+msgid "Emoji picker"
+msgstr "Emojivelger"
+
+#: data/re.sonny.Commit.metainfo.xml:41
+msgid ""
+"Supports git commit, merge, tag --annotate, add --patch, rebase --interactive"
+msgstr ""
+"Støtter git commit, merge, tag --annotate, add --patch, rebase --interactive"
+
+#: data/re.sonny.Commit.metainfo.xml:42
+msgid "Supports Mercurial commit"
+msgstr "Støtter Mercurial commit"
+
+#: data/re.sonny.Commit.metainfo.xml:43 data/re.sonny.Commit.metainfo.xml:118
+msgid "Auto capitalize the commit title"
+msgstr "Automatisk kapitaliser committittelen"
+
+#: data/re.sonny.Commit.metainfo.xml:44
+msgid "Welcome window with settings and instructions"
+msgstr "Velkomstvindu med innstillinger og instrukser"
+
+#: data/re.sonny.Commit.metainfo.xml:45
+msgid "Highlight syntax for Git, Mercurial and diffs"
+msgstr "Marker syntaks for Git, Mercurial, og differ"
+
+#: data/re.sonny.Commit.metainfo.xml:57
+msgid "Main window"
+msgstr "Hovedvindu"
+
+#: data/re.sonny.Commit.metainfo.xml:63
+msgid "Emoji selector"
+msgstr "Emojivelger"
+
+#: data/re.sonny.Commit.metainfo.xml:69
+msgid "Shortcuts"
+msgstr "Tastatursnarveier"
+
+#: data/re.sonny.Commit.metainfo.xml:75
+msgid "Welcome window"
+msgstr "Velkomstvindu"
+
+#: data/re.sonny.Commit.metainfo.xml:81
+msgid "Resize the window to disable auto formatting"
+msgstr "Endre størrelsen på vinduet for å slå av automatisk formatering"
+
+#: data/re.sonny.Commit.metainfo.xml:89
+msgid "Add a theme switcher"
+msgstr "Legg til draktbytter"
+
+#: data/re.sonny.Commit.metainfo.xml:90
+msgid "Improve dark mode support"
+msgstr "Forbedre støtte til den mørke drakten"
+
+#: data/re.sonny.Commit.metainfo.xml:91
+msgid "Support numpad enter"
+msgstr "Støtte Retur på numpad"
+
+#: data/re.sonny.Commit.metainfo.xml:92
+msgid "Add mnemonics for buttons"
+msgstr "Legg til huskeregler for knappene"
+
+#: data/re.sonny.Commit.metainfo.xml:93
+msgid "Fix capitalization when amending"
+msgstr "Fiks kapitalisering under commitendring"
+
+#: data/re.sonny.Commit.metainfo.xml:100
+msgid "Improve auto capitalization"
+msgstr "Forbedre automatisk kapitalisering"
+
+#: data/re.sonny.Commit.metainfo.xml:101
+msgid "Add support for gitconfig and hgrc"
+msgstr "Legg til støtte for gitconfig og hgrc"
+
+#: data/re.sonny.Commit.metainfo.xml:102
+msgid "Support editing any file"
+msgstr "Støtt redigering av noen som helst fil"
+
+#: data/re.sonny.Commit.metainfo.xml:104
+msgid "Make the primary button label dynamic (Tag, Rebase, Commit, ...)"
+msgstr ""
+"Gjør etiketten på den primære knappen dynamisk (Tagg, Rebaser, Commit, osv.)"
+
+#: data/re.sonny.Commit.metainfo.xml:105
+msgid "Use 2 spaces indentation"
+msgstr "Bruk 2-mellomroms innrykk"
+
+#: data/re.sonny.Commit.metainfo.xml:106
+msgid "Add menu button"
+msgstr "Legg til menyknapp"
+
+#: data/re.sonny.Commit.metainfo.xml:107
+msgid "GNOME Platform 42"
+msgstr "GNOME-plattform 42"
+
+#: data/re.sonny.Commit.metainfo.xml:108 data/re.sonny.Commit.metainfo.xml:120
+msgid "Various fixes"
+msgstr "Diverse løsninger"
+
+#: data/re.sonny.Commit.metainfo.xml:115
+msgid "Add keyboard shortcuts for moving lines up and down"
+msgstr "Legg til tastatursnarveier for å flytte linjer oppover og nedover"
+
+#: data/re.sonny.Commit.metainfo.xml:116
+msgid "Highlight syntax for Git, Mercurial, and diffs"
+msgstr "Marker syntaks for Git, Mercurial, og differ"
+
+#: data/re.sonny.Commit.metainfo.xml:117
+msgid "Add a shortcuts window"
+msgstr "Legg til tastatursnarveivindu"
+
+#: data/re.sonny.Commit.metainfo.xml:127
+msgid "Remove spell check temporarily"
+msgstr "Fjern rettskriving foreløpig"
+
+#: data/re.sonny.Commit.metainfo.xml:128
+msgid "Support undo and redo"
+msgstr "Støtt angring og omgjøring"
+
+#: data/re.sonny.Commit.metainfo.xml:129
+msgid "Add symbolic icon"
+msgstr "Legg til symbolisk ikon"
+
+#: data/re.sonny.Commit.metainfo.xml:130
+msgid "Add dark mode setting"
+msgstr "Legg til innstilling for mørk drakt"
+
+#: data/re.sonny.Commit.metainfo.xml:131
+msgid "Focus the text editor"
+msgstr "Fokuser tekstredigereren"
+
+#: data/re.sonny.Commit.metainfo.xml:132
+msgid "Port to GTK 4 and libadwaita"
+msgstr "Flytt til GTK 4 og libadwaita"
+
+#: data/re.sonny.Commit.metainfo.xml:139
+msgid "Move preferences to welcome window"
+msgstr "Flytt preferanser til velkomstvindu"
+
+#: data/re.sonny.Commit.metainfo.xml:140
+msgid "Only highlight text overflow on commits"
+msgstr "Marker bare tekstoverskudd på commiter"
+
+#: data/re.sonny.Commit.metainfo.xml:141
+msgid "New app icon"
+msgstr "Ny appikon"
+
+#: data/re.sonny.Commit.metainfo.xml:142
+msgid "Remove double border"
+msgstr "Fjern dobbelgrense"
+
+#: data/re.sonny.Commit.metainfo.xml:149
+msgid "Add a Preferences window"
+msgstr "Legg til brukervalgvindu"
+
+#: data/re.sonny.Commit.metainfo.xml:150
+msgid "Set default title length hint to 50 characters"
+msgstr "Still inn maksimal tittellengde som 50 tegn"
+
+#: data/re.sonny.Commit.metainfo.xml:151
+msgid "Fix reading commits with special characters"
+msgstr "Fiks lesning av commiter med spesialtegn"
+
+#: data/re.sonny.Commit.metainfo.xml:152
+msgid "Fix git rebase not recognized"
+msgstr "Fiks at git rebase ble ikke gjenkjent"
+
+#: data/re.sonny.Commit.metainfo.xml:153
+msgid "Make windows bottom corners rounded"
+msgstr "Gjør bunnhjørnene avrundede"
+
+#: data/re.sonny.Commit.metainfo.xml:154
+msgid "Add 6px margin to editor"
+msgstr "Legg til 6px-ersmargin til redigerer"
+
+#: data/re.sonny.Commit.metainfo.xml:160
+msgid ""
+"Action required. After updating, please launch the application and follow "
+"the instructions."
+msgstr ""
+"Handling kreves. Etter oppdatering, vennligst åpne appen og følg instruksene."
+
+#: data/re.sonny.Commit.metainfo.xml:165
+msgid "Show a welcome window when launched from desktop"
+msgstr "Vis velkomstvindu når åpnet fra skrivebordet"
+
+#: data/re.sonny.Commit.metainfo.xml:166
+msgid "Add support for Mercurial"
+msgstr "Legg til Mercurial-støtte"
+
+#: data/re.sonny.Commit.metainfo.xml:167
+msgid "Remove filesystem permission"
+msgstr "Fjern filsystemtillatelse"
+
+#: data/re.sonny.Commit.metainfo.xml:173
+msgid "Initial release. Forked from Gnomit 2.0."
+msgstr "Første utgivelse. Utgrenet fra Gnomit 2.0."
+
+#: data/re.sonny.Commit.metainfo.xml:175
+msgid "Support \"#\" in commit message"
+msgstr "Støtte «#» i commitmelding"
+
+#: data/re.sonny.Commit.metainfo.xml:176
+msgid "Properly recognize executable path"
+msgstr "Gjenkjenne stien til kjørfilen"
+
+#. TRANSLATORS: eg. 'Translator Name <your.email@domain.com>' or 'Translator Name https://website.example'
+#: src/about.js:18
+msgid "translator-credits"
+msgstr "Sunniva Løvstad <commit@turtle.garden>"
+
+#: src/scm.js:5 src/scm.js:6
+msgid "_Commit"
+msgstr "_Commit"
+
+#: src/scm.js:7
+msgid "_Merge"
+msgstr "_Flett"
+
+#: src/scm.js:8
+msgid "_Tag"
+msgstr "_Tagg"
+
+#: src/scm.js:9
+msgid "A_dd"
+msgstr "_Legg til"
+
+#: src/scm.js:10
+msgid "_Rebase"
+msgstr "_Rebaser"
+
+#: src/scm.js:14 src/window.ui:30
+msgid "_Save"
+msgstr "_Lagre"
+
+#: src/ShortcutsWindow.ui:10
+msgid "Editing"
+msgstr "Redigerer"
+
+#: src/ShortcutsWindow.ui:17 src/window.ui:37
+msgid "Save and confirm"
+msgstr "Lagre og bekreft"
+
+#: src/ShortcutsWindow.ui:26 src/window.ui:25
+msgid "Cancel and dismiss"
+msgstr "Avbryt og avvis"
+
+#: src/ShortcutsWindow.ui:35
+msgid "Open emoji chooser"
+msgstr "Åpne emojivelger"
+
+#: src/ShortcutsWindow.ui:46
+msgid "Move current line up/down"
+msgstr "Flytt nåværende linje oppover/nedover"
+
+#: src/ShortcutsWindow.ui:54
+msgid "Select All"
+msgstr "Velg alt"
+
+#: src/ShortcutsWindow.ui:62
+msgid "Unelect All"
+msgstr "Opphev velging"
+
+#: src/ShortcutsWindow.ui:69
+msgid "General"
+msgstr "Generelt"
+
+#: src/ShortcutsWindow.ui:76 src/window.ui:79
+msgid "Keyboard Shortcuts"
+msgstr "Tastatursnarveier"
+
+#: src/ShortcutsWindow.ui:82
+msgid "Quit"
+msgstr "Avslutt"
+
+#: src/window.ui:19
+msgid "_Abort"
+msgstr "_Avbryt"
+
+#: src/window.ui:83 src/welcome.ui:184
+msgid "About Commit"
+msgstr "Om Commit"
+
+#: src/welcome.ui:28
+msgid "Preferences"
+msgstr "Brukervalg"
+
+#: src/welcome.ui:69
+msgid "Git"
+msgstr "Git"
+
+#: src/welcome.ui:73
+msgid ""
+"To set Commit as default editor for Git run the following command in Terminal"
+msgstr ""
+"For å stille inn Commit som standardredigerer for Git, kjør den følgende "
+"kommandoen i Konsoll:"
+
+#: src/welcome.ui:100 src/welcome.ui:155
+msgid "Copy to Clipboard"
+msgstr "Kopier til utklippstavlen"
+
+#: src/welcome.ui:108 src/welcome.ui:163
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: src/welcome.ui:112
+msgid ""
+"https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_editor"
+msgstr ""
+"https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_editor"
+
+#: src/welcome.ui:123
+msgid "Mercurial"
+msgstr "Mercurial"
+
+#. TRANSLATORS: Don't translate <tt>hgrc</tt>
+#: src/welcome.ui:128
+msgid ""
+"To set Commit as default editor for Mercurial, set the following in your "
+"<tt>hgrc</tt>"
+msgstr ""
+"For å stille inn Commit som standardredigerer for Mercurial, legg den "
+"følgende inn i din <tt>hgrc</tt>:"
+
+#: src/welcome.ui:167
+msgid "https://www.mercurial-scm.org/wiki/editor"
+msgstr "https://www.mercurial-scm.org/wiki/editor"
